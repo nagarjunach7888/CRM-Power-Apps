@@ -55,3 +55,15 @@ MultiplicationofTwonumbers(74,47);//Multiplication of the given two numbers is :
 MultiplicationofTwonumbers(14,41);//Multiplication of the given two numbers is :574
 MultiplicationofTwonumbers(12,21);//Multiplication of the given two numbers is :252
 MultiplicationofTwonumbers(32,23);//Multiplication of the given two numbers is :736
+
+//7.Create a function to print the list of values in an Array
+function PrintArray()
+{
+   var ListofNames =["nag","Arjun","Kumar","Prasad","Prakash","Jay"];
+   for (var startIndex =0;startIndex < ListofNames.length;startIndex++)
+    {
+        console.log(ListofNames[startIndex])
+    }
+}
+
+//8.
