@@ -66,5 +66,8 @@ function PrintArray()
     }
 }
 
-//8.  i am starting
-hhifu
+//8.Consume the above function to Print Cars Companies list
+//9.Consume the above function to Print mobile Companies list
+//10.Consume the above function to Print Laptop Companies list
+//11.Write a Function to check the nokia is present in the mobile companies list or not
+//12.create a Parameterized Function to Print Grade based on Secured Percentage
