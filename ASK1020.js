@@ -20,7 +20,7 @@ Xrm.Navigation.openAlertDialog(alertStrings, alertOptions).then(
 }
 
 //Function to Populate Full Name in the form based on First Name and Last Name
-function populateFullName(){
+function setMandatory(){
     try{
     var firstName = Xrm.Page.getAttribute("nag_firstname").getValue();
     var lastName = Xrm.Page.getAttribute("nag_lastname").getValue();
