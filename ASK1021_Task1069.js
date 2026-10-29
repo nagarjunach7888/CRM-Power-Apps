@@ -37,12 +37,12 @@ function populateFullName(){
         console.log("null check is completed")
         var fullName = firstName+" "+lastName;
         console.log("concatination is completed")
-        Xrm.Page.getAttribute("nag_name").setValue(fullName);
+        Xrm.Page.getAttribute("nag_fullname").setValue(fullName);
         console.log("lastName field is set after concatination")
     }
-    catch(ex)
+    catch(error)
     {
-        console.log(ex);
+        console.log(error);
         showErrorMessageToUsers("We Encuntered an error while processing your request , please rech out to  Nagarjunatechnologies@Nagtechnologies7888.onmicrosoft.com" ,"Error");
     }
 }
@@ -55,8 +55,8 @@ function setTotalMarks(){
         Xrm.Page.getControl("nag_totalmarks").setDisabled(true);
         console.log("got control on the field and set the field disabled");
     }
-    catch(ex){
-        console.log(ex);
+    catch(error){
+        console.log(error);
         showErrorMessageToUsers("We Encuntered an error while processing your request , please rech out to  Nagarjunatechnologies@Nagtechnologies7888.onmicrosoft.com" ,"Error");
     }
     

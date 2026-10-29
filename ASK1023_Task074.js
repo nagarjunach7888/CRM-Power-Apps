@@ -24,8 +24,8 @@ function setGST(executionContext){
         var formContext = executionContext.getFormContext();
          formContext.getAttribute("nag_gstpercentage").setValue(18);
     }
-    catch(ex){
-        console.log(ex);
+    catch(error){
+        console.log(error);
         showErrorMessageToUsers("We Encuntered an error while processing your request , please rech out to  Nagarjunatechnologies@Nagtechnologies7888.onmicrosoft.com" ,"Error");
     }
 }
@@ -38,8 +38,8 @@ function autoCalculate(executionContext){
         
 
     }
-    catch(ex){
-        console.log(ex);
+    catch(error){
+        console.log(error);
         showErrorMessageToUsers("We Encuntered an error while processing your request , please rech out to  Nagarjunatechnologies@Nagtechnologies7888.onmicrosoft.com" ,"Error");
     }
 }
